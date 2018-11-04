@@ -72,6 +72,8 @@ li a:hover {
   overflow:hidden;
   position: center;
   filter:blur(10px);
+  -webkit-filter:blur(10px);
+  -ms-filter:blur(10px);
   margin: 10px 0px 0px 0px;
 }
 .active {
