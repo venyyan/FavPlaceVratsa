@@ -11,42 +11,32 @@ body{
 }
 
 ul {
-    list-style-type: none;
     margin: 15px 0px 0px 0px;
-    padding: 0;
-    overflow: visible;
     background-color: #333;
-    vertical-align: top;
 }
 
 li {
     float: left;
-    vertical-align: top;
 }
 
 li a {
     display: block;
     color: white;
-    text-align: center;
     padding: 18px 16px 18px 16px;
     text-decoration: none;
-    vertical-align: top;
 }
 
 li a:hover {
-    background-color: #4caf50;
-     vertical-align: top;
+     background-color: #5dd55d;
 }
 .dropbtn {
-	 background-color: #333;
+	  background-color: #333;
     color: white;
     padding: 19px 16px 18px 16px;
-    text-align: center;
     border: none;
     cursor: pointer;
 }
 .dropdown {
-    position: relative;
     display: inline-block;
 }
 
@@ -73,33 +63,19 @@ li a:hover {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #4caf50;
+    background-color: #5dd55d;
 }
 
 .vid-container{
   position:relative;
-  height:100vh;
+  height:900px;
   overflow:hidden;
   position: center;
-  -webkit-filter:blur(10px);
-  -ms-filter: blur(10px);
-  -o-filter: blur(10px);
   filter:blur(10px);
-  position: relative;
-  text-align: center;
-  color: white;
   margin: 10px 0px 0px 0px;
-  z-index: 0;
-}
-.bgvid{
-  position:relative;
-  left:0;
-  top:0;
-  width:100vw;
-  position: center;
 }
 .active {
-    background-color: #4caf50;
+    background-color: #5dd55d;
 }
 .footer1 {
 	width: 100%; 
@@ -141,7 +117,7 @@ li a:hover {
     display: block;
 }
 .dropbtn1 {
-    background-color: #4caf50;
+    background-color: #5dd55d;
     color: white;
     padding: 19px 16px 18px 16px;
     text-align: center;
@@ -149,15 +125,18 @@ li a:hover {
     cursor: pointer;
 }
 .dropbtn2 {
-    background-color: #4caf50;
+    background-color: #5dd55d;
     color: white;
     padding: 19px 16px 18px 16px;
     text-align: center;
     border: none;
     cursor: pointer;
 }
+.dropbtn:hover {
+  background-color: #5dd55d;
+} 
 .button {
-    background-color: #4caf50;
+    background-color: #5dd55d;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -170,7 +149,7 @@ li a:hover {
     position: absolute;
 }
 .button_next {
-    background-color: #4caf50;
+    background-color: #5dd55d;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -182,7 +161,5 @@ li a:hover {
     cursor: pointer;
     position: absolute;
 }
-.dropbtn:hover {
-  background-color: #4caf50;
-} 
+
 
